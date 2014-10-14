@@ -30,3 +30,7 @@ bash -c "$(curl -fsSL raw.github.com/drublic/dotfiles/master/bin/dotfiles)"
 
 # Install uberdeploy
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/platdesign/uberdeploy/master/install.sh)"
+
+
+# Create Link to sublimetext
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
